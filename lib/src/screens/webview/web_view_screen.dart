@@ -41,7 +41,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
 
     final controller = WebViewController.fromPlatformCreationParams(params);
     await controller.setJavaScriptMode(JavaScriptMode.unrestricted);
-    await controller.loadRequest(Uri.parse('https://jose-test.site/movil'));
+    await controller.loadRequest(Uri.parse('https://www.tradusenas.site/movil'));
 
     // Set the permission request handler
     controller.platform.setOnPlatformPermissionRequest((request) async {

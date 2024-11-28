@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Bienvenido a la APP',
+          'Bienvenido a TraduSeñas',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         backgroundColor: const Color(0xFF004D40),
@@ -108,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   const Text(
-                    'Bienvenido a nuestra Aplicación',
+                    'Bienvenido a TraduSeñas',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,

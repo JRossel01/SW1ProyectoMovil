@@ -40,25 +40,7 @@ class Sidebar extends StatelessWidget {
                       ),
                       const SizedBox(height: 10.0),
                       
-                      Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Container(
-                          decoration: BoxDecoration(
-                            border: Border.all(
-                              color: const Color.fromARGB(255, 33, 243, 114),
-                            ),
-                          ),
-                          child: const FittedBox(
-                            child: Text(
-                              'Hola x',
-                              style: TextStyle(color: Colors.white,
-                                fontSize: 11,),
   
-                            ),
-                          ),
-                        ),
-                      ],),
                       /* const  Text(
                           'Hola',
                           style: TextStyle(
